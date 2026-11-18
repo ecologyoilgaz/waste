@@ -1,0 +1,305 @@
+{
+  "meta": {"count": 62, "updated": "2026-11-18", "currency": "USD"},
+  "objects": {
+    "deonar-mumbai": {
+      "title": "Deonar Landfill — Mumbai, India",
+      "country": "India", "region": "Asia", "lat": 19.07, "lon": 72.93, "status": "red",
+      "claimed": "Managed landfill",
+      "actual": "300+ acres, open since 1927; waste piles up to 9 stories; 2,200 t/day; respiratory issues in nearby residents (RecycleNation)",
+      "gap": "80+ years of operation; no proper gas/leachate control",
+      "financial_impact": {"loss_usd": 500000000, "description": "Health and environmental damage", "formula": "PM/leachate damage (estimate)"},
+      "solutions": [
+        {"name": "Material recovery facility", "type": "Medium", "effect": "Reduce landfilling", "cost": "$50M"},
+        {"name": "Landfill gas capture", "type": "Fast", "effect": "Reduce methane", "cost": "$20M"}
+      ],
+      "sources": ["RecycleNation", "Springer 2025"], "companies": ["Brihanmumbai Municipal Corporation"],
+      "documents": []
+    },
+    "ghazipur-delhi": {
+      "title": "Ghazipur Landfill — New Delhi, India",
+      "country": "India", "region": "Asia", "lat": 28.62, "lon": 77.33, "status": "red",
+      "claimed": "Managed",
+      "actual": "Area 274,827 m²; average waste height 8.83 m; frequent fires; near residential areas (Springer 2025)",
+      "gap": "Overcapacity; toxic air emissions",
+      "financial_impact": {"loss_usd": 300000000, "description": "Health damage", "formula": "PM2.5 damage (estimate)"},
+      "solutions": [{"name": "Bioreactor landfill", "type": "Medium", "effect": "Reduce volume", "cost": "$30M"}],
+      "sources": ["Springer 2025"], "companies": ["MCD"],
+      "documents": []
+    },
+    "payatas-philippines": {
+      "title": "Payatas Dumpsite — Quezon City, Philippines",
+      "country": "Philippines", "region": "Asia", "lat": 14.71, "lon": 121.11, "status": "red",
+      "claimed": "Managed",
+      "actual": "7.2–10.3 Mt MSW in place; 25.7 ha; near La Mesa Reservoir; 2.99M people within 10 km (Waste Atlas)",
+      "gap": "Open dumping; water source at risk",
+      "financial_impact": {"loss_usd": 400000000, "description": "Water contamination risk", "formula": "Reservoir cleanup (estimate)"},
+      "solutions": [{"name": "Leachate collection", "type": "Fast", "effect": "Protect reservoir", "cost": "$15M"}],
+      "sources": ["Waste Atlas 2014"], "companies": ["Quezon City Government"],
+      "documents": []
+    },
+    "mehmood-booti-lahore": {
+      "title": "Mehmood Booti — Lahore, Pakistan",
+      "country": "Pakistan", "region": "Asia", "lat": 31.61, "lon": 74.39, "status": "red",
+      "claimed": "Landfill",
+      "actual": "5.5–7.8 Mt MSW; 25.5 ha; no environmental protection; groundwater contaminated; 2M people within 10 km (Waste Atlas)",
+      "gap": "Open dump; no liner or gas capture",
+      "financial_impact": {"loss_usd": 350000000, "description": "Health and water damage", "formula": "Groundwater remediation (estimate)"},
+      "solutions": [{"name": "Capping and gas capture", "type": "Medium", "effect": "Reduce emissions", "cost": "$25M"}],
+      "sources": ["Waste Atlas 2014"], "companies": ["Lahore Waste Management"],
+      "documents": []
+    },
+    "john-al-deek-gaza": {
+      "title": "John al Deek — Gaza City",
+      "country": "Palestine", "region": "Middle East", "lat": 31.46, "lon": 34.45, "status": "red",
+      "claimed": "Dumpsite",
+      "actual": "1.15–1.65 Mt waste; 20 ha; 520k people within 10 km; asbestos present; 401,500 t disposed in 2011 alone (Waste Atlas)",
+      "gap": "Uncontrolled dumping since 1987",
+      "financial_impact": {"loss_usd": 200000000, "description": "Health crisis", "formula": "Medical costs (estimate)"},
+      "solutions": [{"name": "Emergency closure", "type": "Fast", "effect": "Reduce exposure", "cost": "$10M"}],
+      "sources": ["Waste Atlas 2014"], "companies": ["Gaza Municipality"],
+      "documents": []
+    },
+    "jardim-gramacho-brazil": {
+      "title": "Jardim Gramacho — Rio de Janeiro, Brazil",
+      "country": "Brazil", "region": "South America", "lat": -22.81, "lon": -43.26, "status": "red",
+      "claimed": "Closed (2012)",
+      "actual": "321 acres; 8,000 t/day at peak; liquid waste polluted Guanabara Bay; featured in documentary 'Waste Land' (RecycleNation)",
+      "gap": "Legacy contamination",
+      "financial_impact": {"loss_usd": 600000000, "description": "Bay contamination", "formula": "Remediation (estimate)"},
+      "solutions": [{"name": "Full remediation", "type": "Long", "effect": "Restore wetlands", "cost": "$200M"}],
+      "sources": ["RecycleNation"], "companies": ["Rio Municipality"],
+      "documents": []
+    },
+    "puente-hills-usa": {
+      "title": "Puente Hills Landfill — California, USA",
+      "country": "USA", "region": "North America", "lat": 34.02, "lon": -118.02, "status": "red",
+      "claimed": "Closed (2013)",
+      "actual": "700 acres; 13,200 t/day at peak; visible from Google Earth; methane-to-energy for 70,000 residents (RecycleNation)",
+      "gap": "Legacy emissions",
+      "financial_impact": {"loss_usd": 100000000, "description": "Residual emissions", "formula": "Post-closure care (estimate)"},
+      "solutions": [{"name": "Methane capture expansion", "type": "Fast", "effect": "Reduce emissions", "cost": "$20M"}],
+      "sources": ["RecycleNation"], "companies": ["LA County Sanitation"],
+      "documents": []
+    },
+    "laogang-shanghai": {
+      "title": "Laogang Landfill — Shanghai, China",
+      "country": "China", "region": "Asia", "lat": 31.02, "lon": 121.85, "status": "red",
+      "claimed": "Managed",
+      "actual": "1,000+ acres; 10,000 t/day; largest methane-to-energy in China (12 turbines) (RecycleNation)",
+      "gap": "Scale vs coastal impact",
+      "financial_impact": {"loss_usd": 800000000, "description": "Coastal pollution", "formula": "Leachate treatment (estimate)"},
+      "solutions": [{"name": "Leachate treatment upgrade", "type": "Medium", "effect": "Protect coast", "cost": "$100M"}],
+      "sources": ["RecycleNation"], "companies": ["Shanghai Environment"],
+      "documents": []
+    },
+    "apex-las-vegas": {
+      "title": "Apex Regional Landfill — Las Vegas, USA",
+      "country": "USA", "region": "North America", "lat": 36.42, "lon": -114.92, "status": "red",
+      "claimed": "Managed",
+      "actual": "2,300 acres; 9,000 t/day; 12 MW methane power station (RecycleNation)",
+      "gap": "High per-capita waste",
+      "financial_impact": {"loss_usd": 150000000, "description": "Emissions", "formula": "Methane (estimate)"},
+      "solutions": [{"name": "Expand gas capture", "type": "Fast", "effect": "More energy", "cost": "$10M"}],
+      "sources": ["RecycleNation"], "companies": ["Republic Services"],
+      "documents": []
+    },
+    "sudokwon-south-korea": {
+      "title": "Sudokwon Landfill — Incheon, South Korea",
+      "country": "South Korea", "region": "Asia", "lat": 37.55, "lon": 126.62, "status": "red",
+      "claimed": "Managed",
+      "actual": "5,130 acres; 13,500 t/day; leachate release issues (RecycleNation)",
+      "gap": "Leachate management",
+      "financial_impact": {"loss_usd": 200000000, "description": "Water pollution", "formula": "Leachate treatment (estimate)"},
+      "solutions": [{"name": "Leachate system upgrade", "type": "Medium", "effect": "Stop release", "cost": "$40M"}],
+      "sources": ["RecycleNation"], "companies": ["Sudokwon Landfill Site"],
+      "documents": []
+    },
+    "bisasar-durban": {
+      "title": "Bisasar Road Landfill — Durban, South Africa",
+      "country": "South Africa", "region": "Africa", "lat": -29.83, "lon": 30.98, "status": "red",
+      "claimed": "Managed",
+      "actual": "109 acres; 5,000 t/day; cancer rates elevated; 3M Nm³ methane flared monthly (RecycleNation)",
+      "gap": "Health impact on nearby residents",
+      "financial_impact": {"loss_usd": 250000000, "description": "Health crisis", "formula": "Medical costs (estimate)"},
+      "solutions": [{"name": "Gas capture expansion", "type": "Fast", "effect": "Reduce exposure", "cost": "$15M"}],
+      "sources": ["RecycleNation"], "companies": ["eThekwini Municipality"],
+      "documents": []
+    },
+    "chennai-dumping-ground": {
+      "title": "Chennai Dumping Ground — India",
+      "country": "India", "region": "Asia", "lat": 13.14, "lon": 80.27, "status": "red",
+      "claimed": "Managed",
+      "actual": "862,571 m²; 33.7M m³ waste volume; average height 39 m (Springer 2025)",
+      "gap": "Massive volume; fire risk",
+      "financial_impact": {"loss_usd": 400000000, "description": "Health and air quality", "formula": "PM2.5 (estimate)"},
+      "solutions": [{"name": "Bioreactor + gas capture", "type": "Medium", "effect": "Reduce volume/emissions", "cost": "$60M"}],
+      "sources": ["Springer 2025"], "companies": ["Chennai Corporation"],
+      "documents": []
+    },
+    "delhi-mcd-dumping": {
+      "title": "Delhi MCD Dumping Ground — India",
+      "country": "India", "region": "Asia", "lat": 28.74, "lon": 77.16, "status": "red",
+      "claimed": "Managed",
+      "actual": "255,495 m²; 2.5M m³ waste; average height 9.95 m (Springer 2025)",
+      "gap": "Overcapacity",
+      "financial_impact": {"loss_usd": 350000000, "description": "Health", "formula": "PM2.5 (estimate)"},
+      "solutions": [{"name": "Waste-to-energy", "type": "Medium", "effect": "Reduce volume", "cost": "$80M"}],
+      "sources": ["Springer 2025"], "companies": ["MCD"],
+      "documents": []
+    },
+    "china-e-waste": {
+      "title": "China E-Waste — National",
+      "country": "China", "region": "Asia", "lat": 39.9, "lon": 116.4, "status": "red",
+      "claimed": "Recycling programs",
+      "actual": "12 million tonnes e-waste in 2022 (Global E-Waste Monitor 2024) — world's largest producer",
+      "gap": "Informal recycling dominates",
+      "financial_impact": {"loss_usd": 5000000000, "description": "Health and resource loss", "formula": "Informal recycling damage (estimate)"},
+      "solutions": [{"name": "Formal recycling expansion", "type": "Medium", "effect": "Safe processing", "cost": "$1B"}],
+      "sources": ["Global E-Waste Monitor 2024"], "companies": ["Various"],
+      "documents": []
+    },
+    "usa-e-waste": {
+      "title": "USA E-Waste — National",
+      "country": "USA", "region": "North America", "lat": 38.9, "lon": -77.0, "status": "red",
+      "claimed": "Recycling",
+      "actual": "7.2 million tonnes e-waste in 2022 (2nd globally); 47 lbs per capita (Global E-Waste Monitor 2024)",
+      "gap": "Low formal recycling rate",
+      "financial_impact": {"loss_usd": 3000000000, "description": "Resource loss", "formula": "Landfill/export damage (estimate)"},
+      "solutions": [{"name": "Federal e-waste law", "type": "Long", "effect": "Mandate recycling", "cost": "Policy"}],
+      "sources": ["Global E-Waste Monitor 2024"], "companies": ["Various"],
+      "documents": []
+    },
+    "india-e-waste": {
+      "title": "India E-Waste — National",
+      "country": "India", "region": "Asia", "lat": 28.6, "lon": 77.2, "status": "red",
+      "claimed": "EPR rules",
+      "actual": "4.1 million tonnes e-waste in 2022 (3rd globally); low formal recycling; informal sector dominates (Global E-Waste Monitor 2024)",
+      "gap": "Informal sector exposure",
+      "financial_impact": {"loss_usd": 2000000000, "description": "Health and resource loss", "formula": "Informal damage (estimate)"},
+      "solutions": [{"name": "Formalize informal sector", "type": "Medium", "effect": "Safe jobs", "cost": "$500M"}],
+      "sources": ["Global E-Waste Monitor 2024"], "companies": ["Various"],
+      "documents": []
+    },
+    "germany-plastic-export": {
+      "title": "Germany Plastic Waste Export — National",
+      "country": "Germany", "region": "Europe", "lat": 51.2, "lon": 10.4, "status": "red",
+      "claimed": "Circular economy leader",
+      "actual": "810,000 tonnes plastic waste exported in 2025 — world's largest exporter; much to Turkey, Malaysia, Indonesia (Basel Action Network / Guardian)",
+      "gap": "Export counts toward recycling targets",
+      "financial_impact": {"loss_usd": 500000000, "description": "Pollution in recipient countries", "formula": "Externalized cost (estimate)"},
+      "solutions": [{"name": "Domestic recycling capacity", "type": "Medium", "effect": "Stop export", "cost": "$2B"}],
+      "sources": ["Basel Action Network 2026", "Guardian"], "companies": ["Various"],
+      "documents": []
+    },
+    "uk-plastic-export": {
+      "title": "UK Plastic Waste Export — National",
+      "country": "UK", "region": "Europe", "lat": 51.5, "lon": -0.1, "status": "red",
+      "claimed": "Recycling",
+      "actual": "675,000 tonnes exported in 2025 (highest in 8 years); much to Turkey, Malaysia (Basel Action Network / Guardian)",
+      "gap": "Export dependency",
+      "financial_impact": {"loss_usd": 400000000, "description": "Externalized pollution", "formula": "Externalized cost (estimate)"},
+      "solutions": [{"name": "Domestic infrastructure", "type": "Medium", "effect": "Reduce export", "cost": "$1B"}],
+      "sources": ["Basel Action Network 2026"], "companies": ["Various"],
+      "documents": []
+    },
+    "turkey-plastic-import": {
+      "title": "Turkey Plastic Waste Import — National",
+      "country": "Turkey", "region": "Europe/Asia", "lat": 39.9, "lon": 32.9, "status": "red",
+      "claimed": "Recycling hub",
+      "actual": "Largest recipient of European plastic waste; generates 3.3M t plastic waste domestically, double its recycling capacity; Mediterranean coast most polluted (Basel Action Network / Guardian)",
+      "gap": "Overwhelmed infrastructure",
+      "financial_impact": {"loss_usd": 800000000, "description": "Coastal pollution", "formula": "Cleanup (estimate)"},
+      "solutions": [{"name": "Import restrictions", "type": "Fast", "effect": "Reduce volume", "cost": "Policy"}],
+      "sources": ["Basel Action Network 2026"], "companies": ["Various"],
+      "documents": []
+    },
+    "malaysia-plastic-import": {
+      "title": "Malaysia Plastic Waste Import — National",
+      "country": "Malaysia", "region": "Asia", "lat": 3.1, "lon": 101.7, "status": "red",
+      "claimed": "Recycling",
+      "actual": "Major recipient of UK/EU plastic waste; UK shipments to Malaysia rose 60% since 2024; environmental damage and labour abuses (Basel Action Network / Guardian)",
+      "gap": "Waste colonialism",
+      "financial_impact": {"loss_usd": 300000000, "description": "Pollution and health", "formula": "Cleanup (estimate)"},
+      "solutions": [{"name": "Import ban enforcement", "type": "Fast", "effect": "Reduce volume", "cost": "Policy"}],
+      "sources": ["Basel Action Network 2026"], "companies": ["Various"],
+      "documents": []
+    },
+    "indonesia-e-waste": {
+      "title": "Indonesia E-Waste — National",
+      "country": "Indonesia", "region": "Asia", "lat": -6.2, "lon": 106.8, "status": "red",
+      "claimed": "Managed",
+      "actual": "1.9 million tonnes e-waste (2022); only 17.4% properly managed (Global E-Waste Monitor 2024)",
+      "gap": "Informal recycling",
+      "financial_impact": {"loss_usd": 500000000, "description": "Health", "formula": "Informal damage (estimate)"},
+      "solutions": [{"name": "Formal collection", "type": "Medium", "effect": "Safe processing", "cost": "$100M"}],
+      "sources": ["Global E-Waste Monitor 2024"], "companies": ["Various"],
+      "documents": []
+    },
+    "russia-e-waste": {
+      "title": "Russia E-Waste — National",
+      "country": "Russia", "region": "Europe/Asia", "lat": 55.8, "lon": 37.6, "status": "red",
+      "claimed": "Recycling",
+      "actual": "1.63 million tonnes e-waste (2021); largest in CIS region (Regional E-Waste Monitor 2021)",
+      "gap": "Low formal recycling",
+      "financial_impact": {"loss_usd": 800000000, "description": "Resource loss", "formula": "Landfill damage (estimate)"},
+      "solutions": [{"name": "EPR enforcement", "type": "Medium", "effect": "Increase recycling", "cost": "$300M"}],
+      "sources": ["Regional E-Waste Monitor 2021"], "companies": ["Various"],
+      "documents": []
+    },
+    "brazil-e-waste": {
+      "title": "Brazil E-Waste — National",
+      "country": "Brazil", "region": "South America", "lat": -15.8, "lon": -47.9, "status": "red",
+      "claimed": "Reverse logistics",
+      "actual": "2+ million tonnes e-waste annually; 5th largest producer; low recycling rate (Global E-Waste Monitor 2024)",
+      "gap": "Collection gap",
+      "financial_impact": {"loss_usd": 700000000, "description": "Resource loss", "formula": "Landfill damage (estimate)"},
+      "solutions": [{"name": "Reverse logistics expansion", "type": "Medium", "effect": "Increase collection", "cost": "$200M"}],
+      "sources": ["Global E-Waste Monitor 2024"], "companies": ["Various"],
+      "documents": []
+    },
+    "japan-e-waste": {
+      "title": "Japan E-Waste — National",
+      "country": "Japan", "region": "Asia", "lat": 35.7, "lon": 139.7, "status": "red",
+      "claimed": "Advanced recycling",
+      "actual": "3 million tonnes e-waste annually; 4th largest producer (Global E-Waste Monitor 2024)",
+      "gap": "High consumption",
+      "financial_impact": {"loss_usd": 600000000, "description": "Resource loss", "formula": "Recycling gap (estimate)"},
+      "solutions": [{"name": "Urban mining expansion", "type": "Medium", "effect": "Recover metals", "cost": "$300M"}],
+      "sources": ["Global E-Waste Monitor 2024"], "companies": ["Various"],
+      "documents": []
+    },
+    "mexico-e-waste": {
+      "title": "Mexico E-Waste — National",
+      "country": "Mexico", "region": "North America", "lat": 19.4, "lon": -99.1, "status": "red",
+      "claimed": "Managed",
+      "actual": "1.5 million tonnes e-waste annually; 10th globally; only 81 governments have e-waste laws (Global E-Waste Monitor 2024)",
+      "gap": "Weak regulation",
+      "financial_impact": {"loss_usd": 400000000, "description": "Health", "formula": "Informal damage (estimate)"},
+      "solutions": [{"name": "National e-waste law", "type": "Long", "effect": "Mandate recycling", "cost": "Policy"}],
+      "sources": ["Global E-Waste Monitor 2024"], "companies": ["Various"],
+      "documents": []
+    },
+    "global-msw-generation": {
+      "title": "Global Municipal Solid Waste — 2.56 Billion Tonnes",
+      "country": "Global", "region": "Global", "lat": 0, "lon": 0, "status": "red",
+      "claimed": "Circular economy",
+      "actual": "2.56 billion tonnes MSW generated in 2022; projected 3.86 billion tonnes by 2050 (+50%) (World Bank What a Waste 3.0)",
+      "gap": "Generation rising faster than recycling",
+      "financial_impact": {"loss_usd": 50000000000, "description": "Global waste management cost", "formula": "Aggregate (World Bank estimate)"},
+      "solutions": [{"name": "Global circular economy", "type": "Long", "effect": "Reduce generation", "cost": "Policy"}],
+      "sources": ["World Bank What a Waste 3.0"], "companies": ["Various"],
+      "documents": []
+    },
+    "global-open-dumping": {
+      "title": "Global Open Dumping — Low-Income Countries",
+      "country": "Global", "region": "Global", "lat": 0, "lon": 0, "status": "red",
+      "claimed": "Managed waste",
+      "actual": "In low-income countries, open dumping can exceed 90% of waste disposal (World Bank What a Waste 3.0)",
+      "gap": "No sanitary landfills",
+      "financial_impact": {"loss_usd": 30000000000, "description": "Health and environmental", "formula": "Aggregate (estimate)"},
+      "solutions": [{"name": "Sanitary landfill construction", "type": "Long", "effect": "Replace dumps", "cost": "$10B"}],
+      "sources": ["World Bank What a Waste 3.0"], "companies": ["Various"],
+      "documents": []
+    }
+  }
+}
